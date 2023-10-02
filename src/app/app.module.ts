@@ -7,6 +7,7 @@ import { ListUserComponent } from './list-user/list-user.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
 import { TestDirective } from './test.directive';
+import { AddUserComponent } from './add-user/add-user.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { TestDirective } from './test.directive';
     NavbarComponent,
     ContentComponent,
     TestDirective,
+    AddUserComponent,
    
   ],
   imports: [
