@@ -2,7 +2,8 @@
 <h1 appTest>Liste des Utilisateurs</h1>
 <br>
 
-<button class="btn btn-success"[routerLink]="['/add-user']">Ajouter User</button>
+<button class="btn btn-success"[routerLink]="['add-user']">Ajouter User</button>
+
 <br><br>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <div class="container">
@@ -48,13 +49,13 @@
                   <a href="#">{{item.email}}</a>
                 </td>
                 <td style="width: 20%;">
-                  <a href="#" class="table-link">
+                  <a  class="table-link">
                     <span class="fa-stack">
                       <i class="fa fa-square fa-stack-2x"></i>
                       <i class="fa fa-search-plus fa-stack-1x fa-inverse"></i>
                     </span>
                   </a>
-                  <a href="#" class="table-link">
+                  <a [routerLink]="['/edit',item.idCustomer]" class="table-link">
                     <span class="fa-stack">
                       <i class="fa fa-square fa-stack-2x"></i>
                       <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
@@ -85,3 +86,4 @@
     </div>
   </div>
 </div>
+<router-outlet></router-outlet>

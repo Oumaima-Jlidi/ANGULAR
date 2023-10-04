@@ -8,6 +8,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ContentComponent } from './content/content.component';
 import { TestDirective } from './test.directive';
 import { AddUserComponent } from './add-user/add-user.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
+import { EditComponent } from './edit/edit.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { AddUserComponent } from './add-user/add-user.component';
     ContentComponent,
     TestDirective,
     AddUserComponent,
+    ErrorPageComponent,
+    EditComponent,
    
   ],
   imports: [
