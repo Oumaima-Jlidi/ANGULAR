@@ -10,6 +10,7 @@ import { TestDirective } from './test.directive';
 import { AddUserComponent } from './add-user/add-user.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { EditComponent } from './edit/edit.component';
+import { ListProductsComponent } from './list-products/list-products.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { EditComponent } from './edit/edit.component';
     AddUserComponent,
     ErrorPageComponent,
     EditComponent,
+    ListProductsComponent,
    
   ],
   imports: [
